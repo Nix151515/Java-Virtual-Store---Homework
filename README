@@ -1,0 +1,32 @@
+State Nicolae - 323CC - Tema POO
+
+	Nivel de dificultate : ridicat
+	Timp acordat : aproximativ 40 de ore
+	
+	Mod de implementare:
+	
+	-Am realizat cate un fisier pentru fiecare clasa, cu exceptia comparatorilor
+	si a ascultatorilor din cadrul interfetei;
+	-Observatorii din departament, clientii din magazin si celelalte colectii 
+	(cu exceptia celor ItemList) le-am reprezentat cu ajutorul clasei Vector.
+	-Am implementat metode suplimentare pentru usurinta modului de lucru.
+	-In cazul clasei Item, am tinut cont de incapsularea datelor, folosind metode "set" si "get".
+	-Am construit comparatori pentru ShoppingCart si WishList pentru a sorta
+	produsele corespunzator.
+	-Am testat tema folosind clasa Test si fisierele din checker.
+	-Din partea de bonus, am folosit sablonul Strategy pentru a alege produsul
+	preferat al clientilor.
+	
+	
+	-Interfata se acceseaza prin rularea clasei ShopWindow.
+	-Pentru interfata grafica am construit o fereastra JFrame care contine 3 taburi
+	-Fiecare tab implementeaza paginile din cerinta : Store, ShoppingCart si WishList
+	-Paginile contin liste JList(produse, cosul de produse, lista de dorinte) si
+	panouri in care se afla celelalte functionalitati(butoane ,etichete).
+	-Am folosit GridLayout pentru ordonarea elementelor din pagina;
+	-Pentru aplicarea evenimentelor am folosit ascultatori de lista si de butoane.
+	-In cazul operatiilor nepermise, se vor deschide ferestre de eroare;
+	-Interfata este simpla, dar implementeaza specificatiile cerute.
+	
+				   
+	
